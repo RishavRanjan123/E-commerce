@@ -1,12 +1,12 @@
 import {
   Facebook,
   Instagram,
-  MailOutline,
+  MailOutlineOutlined,
   Phone,
   Pinterest,
   Room,
   Twitter,
-} from "@material-ui/icons";
+} from "@mui/icons-material";
 import styled from "styled-components";
 import { mobile } from "../responsive";
 
@@ -133,7 +133,7 @@ const Footer = () => {
           <Phone style={{marginRight:"10px"}}/> +1 234 56 78
         </ContactItem>
         <ContactItem>
-          <MailOutline style={{marginRight:"10px"}} /> contact@lama.dev
+          <MailOutlineOutlined style={{marginRight:"10px"}} /> contact@lama.dev
         </ContactItem>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>
